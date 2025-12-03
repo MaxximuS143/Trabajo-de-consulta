@@ -36,7 +36,7 @@ object funcion {
     val e5 = error(1.71828, r5)
 
     // 6) ∫2→3 1 / (x - 1)
-    val f6 = (x: Double) => 1.0 / (x - 1)
+    val f6 = (x: Double) => 1.0 / math.sqrt(x - 1)
     val r6 = integracion(f6, 2, 3)
     val e6 = error(0.828427, r6)
 
